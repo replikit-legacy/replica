@@ -94,29 +94,29 @@
   dependencies:
     "@replikit/storage" "^0.21.0"
 
-"@replikit/authorization@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/authorization/-/authorization-0.22.1.tgz#0a386037b8325bcc9ed4ddf2ab5660a53dc49815"
-  integrity sha512-9hDig9TgarAhU1pB3mrX986fPrHKCT8LN4q5Zedrf0E/38vbL37U+l+e5ScVeYnpqqjWtI479mZg7yktGawNIg==
+"@replikit/authorization@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/authorization/-/authorization-0.22.2.tgz#6dfd20a2940055eaa15ef0e8dbc32760f783b9ee"
+  integrity sha512-+iCzIV8LwvQo4WvwrmiiATy0zOfE1wwggc2fLQz+gOZK9+HD+bGbg2KnKwri1rlbE1/2whMRN1D15BIGfmdF3A==
   dependencies:
-    "@replikit/commands" "^0.22.1"
-    "@replikit/permissions" "^0.22.1"
+    "@replikit/commands" "^0.22.2"
+    "@replikit/permissions" "^0.22.2"
 
-"@replikit/chalk@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/chalk/-/chalk-0.22.1.tgz#4f26c3eb3f88a44cdc40eb6bfbf4033c264899fa"
-  integrity sha512-qncBQfY0i/z2vH0eTfOhUMZCNU0zzDDDdW218cFaACoytpOoaN7r8vVa51YVCLWWt9hydzHNXYIoqwl42qs6Hw==
+"@replikit/chalk@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/chalk/-/chalk-0.22.2.tgz#3eb24acb7687640d62ac16443fdbeba7116db91c"
+  integrity sha512-zdNCsQuL4vEEQG8ByLOlvX8dDOeLHTttp8aS0ImhIOUvv1Y7IpRpQLQDhBP3RA+dvVZs2lAqNv6Hp2RsUV57Cw==
   dependencies:
-    "@replikit/core" "^0.22.1"
+    "@replikit/core" "^0.22.2"
     chalk "^4.0.0"
 
-"@replikit/cli@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/cli/-/cli-0.22.1.tgz#31d195777c424f5f36e8a46f91b7a8d14d950d59"
-  integrity sha512-6U7tb3n0vQqgOof67KdqtyxZa/nwSUNjejRNt256AFAf6hhEjKi7+Cl1P6h3FlLLrorHuJTFE1CJ45tbHCPJqA==
+"@replikit/cli@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/cli/-/cli-0.22.2.tgz#b0eb7d92375126d751f2fbb275b45035ded39fb7"
+  integrity sha512-nU1J3eaU5HQDVf1CeBuscz5320YmRC+JIuM4rYf5HvRSVxrv3X6O6pWg5XK2c4sZli2tHn1VU+KChfjycEstog==
   dependencies:
-    "@replikit/chalk" "^0.22.1"
-    "@replikit/core" "^0.22.1"
+    "@replikit/chalk" "^0.22.2"
+    "@replikit/core" "^0.22.2"
     commander "^6.0.0"
     dotenv "^8.2.0"
     execa "^4.0.0"
@@ -144,39 +144,39 @@
     "@replikit/i18n" "^0.21.0"
     "@replikit/router" "^0.21.0"
 
-"@replikit/commands@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/commands/-/commands-0.22.1.tgz#1db24a4b83a7e2963cbf70b83a0bf965bad6c0ef"
-  integrity sha512-Su04pEnCRnCyh2DTWUH/qzxyvcSv1Pp9Ff1gK56rekRgK3RRh+ZifqupdIe8DNueajXyTMFrNW5yb6VF1fEeJQ==
+"@replikit/commands@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/commands/-/commands-0.22.2.tgz#49330fed7450e7cdbcd30f5be31915ac1b1e1823"
+  integrity sha512-1UHGsPTLjGAEd8Tg/1SQGNdoDBeM35ftmv9JEFSSPJWr+Y/Mv2O4ByDRWMlOYikAGhp7xa/BroQq8HV6JYQrZQ==
   dependencies:
-    "@replikit/core" "^0.22.1"
-    "@replikit/i18n" "^0.22.1"
-    "@replikit/router" "^0.22.1"
+    "@replikit/core" "^0.22.2"
+    "@replikit/i18n" "^0.22.2"
+    "@replikit/router" "^0.22.2"
 
 "@replikit/core@^0.21.0":
   version "0.21.0"
   resolved "https://registry.npmjs.org/@replikit/core/-/core-0.21.0.tgz#925793fd3d64e88c81d0d30ef8ef4b5f4165d5b4"
   integrity sha512-5KB986dTRv8sZ6Ak14m4YClTSTpTQV0LDCOXASFllXB2/hf7OsjEFg5U4oq+PZganAFGuzZp6EwAD+kzU/xWrA==
 
-"@replikit/core@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/core/-/core-0.22.1.tgz#a89c4b0218838b471e6f582f6877ce5e61904607"
-  integrity sha512-Fs4NoUsndYOuq8+/gYnmyFy3toTH9kXntBldZPUViUHb4CRzme1JTWzAREwhzTe85lGGbtEptDXJjB2+QfTZKw==
+"@replikit/core@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/core/-/core-0.22.2.tgz#2f0b57e25e3680ea0f27713ba04489de8b42ae91"
+  integrity sha512-X/6pxYNvMKQPl7ShJej2JkZhxOFNS+ti75pdvb3r2UrwmxSEPej48owfRVHxhbnM6vRz1r3qRtLfXASUd3Zljg==
 
-"@replikit/discord@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/discord/-/discord-0.22.1.tgz#bc538cb70c4196b4d7a3d7f6a2157aa6a4a9cc32"
-  integrity sha512-0BTDofymLSv9q1NK5nKwUarXSiXQH/yOb9m0ThXlOgDWwsenXAEpLKRVBzvHm8Gj6DtByH0Gaz21cUgBlI1UgQ==
+"@replikit/discord@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/discord/-/discord-0.22.2.tgz#4c80058a70d380f7d9d5764a0b91bfda22d39a94"
+  integrity sha512-RcRWGBW76R2d7Hx/PK0GCaLvptYBwxbPzYllAB/i7+RoI5rWVdWKHr4YrLBjI+8xCdOhud3hRXmaF8DOv7dkew==
   dependencies:
-    "@replikit/core" "^0.22.1"
+    "@replikit/core" "^0.22.2"
     discord.js "^12.3.1"
 
-"@replikit/help@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/help/-/help-0.22.1.tgz#927a14fddd039feeadb804b3b23e45bf48bc72da"
-  integrity sha512-VwhrwxltHq3ucJh1GYjDQciMEszUmHf4WbdAKDKb/xlf5iIlCNpFkIMH9ECnzqQkWfk8NSw1qbwSK7iFj644Sg==
+"@replikit/help@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/help/-/help-0.22.2.tgz#603349cd562eeddfa6239e1c89aa6ce3b1e6b368"
+  integrity sha512-enEUJK15W0X5Zoco2hcUiOnhgIqYJMzOCoMfdG3pRNJGOSOoW15erHvRQcaP8NpsjnXQxcyadj2VZyHaX0i/ig==
   dependencies:
-    "@replikit/commands" "^0.22.1"
+    "@replikit/commands" "^0.22.2"
 
 "@replikit/i18n@^0.21.0":
   version "0.21.0"
@@ -186,13 +186,13 @@
     "@replikit/core" "^0.21.0"
     "@replikit/router" "^0.21.0"
 
-"@replikit/i18n@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/i18n/-/i18n-0.22.1.tgz#269fdc4b9a6c05d1c1c09041fbc3b806bb51fc84"
-  integrity sha512-2zXp93S/W6h0lUuY+Z9ECvnZFa7ogai78K1AFbh5NF0YuIRRA5S7ohZcJ3oOroF7BDiVH7d8UVU87KUqoedexA==
+"@replikit/i18n@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/i18n/-/i18n-0.22.2.tgz#c0b1bc3cb0ab5da9fce740a9124a719394bb760d"
+  integrity sha512-10twf4ArX2QupX7NJTV2rwAUjE+nyJvwSIyYpDAt5hfoumOdzpQc5vrk2dUGyKtueLqDhZ5Ov6OifFd4iU8Htg==
   dependencies:
-    "@replikit/core" "^0.22.1"
-    "@replikit/router" "^0.22.1"
+    "@replikit/core" "^0.22.2"
+    "@replikit/router" "^0.22.2"
 
 "@replikit/messages@^0.21.0":
   version "0.21.0"
@@ -201,23 +201,23 @@
   dependencies:
     "@replikit/core" "^0.21.0"
 
-"@replikit/messages@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/messages/-/messages-0.22.1.tgz#3a903723020b0853518d4c1fd3f1396f841493f0"
-  integrity sha512-lkJUxuxYEta0/2TD6IdZVEy1QoDwLvzU5glSPxIiLhu7V1dWsI3mOw4AgjhQdeA6MZGGdLuvYHcIpmApN0BV5A==
+"@replikit/messages@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/messages/-/messages-0.22.2.tgz#e4c308ba43ce69e188f29e931d5dc7f3a5643d0d"
+  integrity sha512-U4FV2545ar79Sahz7g9HL1yCr9KghplHKdoIyNOLNXbViFBq99xjBI88nK/XoVk0xDB7f2dMO3ZdoETdtPixVQ==
   dependencies:
-    "@replikit/core" "^0.22.1"
+    "@replikit/core" "^0.22.2"
 
-"@replikit/permissions@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/permissions/-/permissions-0.22.1.tgz#6a700140a60716190856bae20a9a3bc86504869e"
-  integrity sha512-qEtcD3Qn8HkSx5vVvBsZ6sMvVPuYP9Edu+U2FG8lZCW6L4CFtJ4YnLU1n4wItjCzRUKwyA8t6oXRzLDeS4SHiw==
+"@replikit/permissions@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/permissions/-/permissions-0.22.2.tgz#9d396650dafe5c532cba820fb3f27fcf0e5d2b0a"
+  integrity sha512-D5NLcZWTS96fpYFFdNZ1ibmRxefLQ5o20A1gVzJqXk0Qel0YeqJrsq8j22CqO3y9AFn5VWIdKwV+zA76OSzg9g==
   dependencies:
-    "@replikit/core" "^0.22.1"
-    "@replikit/i18n" "^0.22.1"
-    "@replikit/storage" "^0.22.1"
+    "@replikit/core" "^0.22.2"
+    "@replikit/i18n" "^0.22.2"
+    "@replikit/storage" "^0.22.2"
   optionalDependencies:
-    "@replikit/commands" "^0.22.1"
+    "@replikit/commands" "^0.22.2"
 
 "@replikit/router@^0.21.0":
   version "0.21.0"
@@ -227,13 +227,13 @@
     "@replikit/core" "^0.21.0"
     "@replikit/messages" "^0.21.0"
 
-"@replikit/router@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/router/-/router-0.22.1.tgz#11f355d816e404de4dd0f64f654f0407b5429e28"
-  integrity sha512-wycHEcGaRAmkpaoIHNuXW43Fxyka5qJ1ZV4+bRo9G9WapRIyDB3UrrOwLNORLNM80Tz7B0Zv8BHmYuaTmCzpIw==
+"@replikit/router@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/router/-/router-0.22.2.tgz#108f72105bee9ff30749a01bcd786d81943aefaa"
+  integrity sha512-QXilJcbDT9wyjpdzDBsrkYbjHQmPyCWD7dIQyU+ZHX3ANb/481Wg7l+I+bryiuuQ36DI7h5yK26Q3wGgsJ+JHg==
   dependencies:
-    "@replikit/core" "^0.22.1"
-    "@replikit/messages" "^0.22.1"
+    "@replikit/core" "^0.22.2"
+    "@replikit/messages" "^0.22.2"
 
 "@replikit/storage@^0.21.0":
   version "0.21.0"
@@ -250,35 +250,35 @@
   optionalDependencies:
     "@replikit/commands" "^0.21.0"
 
-"@replikit/storage@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/storage/-/storage-0.22.1.tgz#b9da307e47e8c47089d7971737ba90cbaab88a57"
-  integrity sha512-m6kPeeJFqAVrM8PK/Up5NppVMq7ECLqZ6bNNLOWD3RSlhiCTseMD/r+Wf/87S164y1IAqYaCnKJ28QSkCXF0mg==
+"@replikit/storage@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/storage/-/storage-0.22.2.tgz#5c9509ee455b5aae470740dd8f553fbb7080af61"
+  integrity sha512-O0KjDzFkrgNxVJ+39mCPGO00wlLAOrKfQc49PrNEPwf67ZG+kUTLU7rRP234nU58reEhFuGY0ur869LfYBTyWg==
   dependencies:
     "@abraham/reflection" "^0.7.0"
-    "@replikit/core" "^0.22.1"
-    "@replikit/i18n" "^0.22.1"
-    "@replikit/router" "^0.22.1"
+    "@replikit/core" "^0.22.2"
+    "@replikit/i18n" "^0.22.2"
+    "@replikit/router" "^0.22.2"
     "@types/mongodb" "^3.5.26"
     class-transformer "^0.3.1"
     mongodb "^3.6.0"
   optionalDependencies:
-    "@replikit/commands" "^0.22.1"
+    "@replikit/commands" "^0.22.2"
 
-"@replikit/telegram@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/telegram/-/telegram-0.22.1.tgz#e067cca393c67e4779d5d8bf49c1d8a5eb3840ee"
-  integrity sha512-UFVrx8iFL/c08X/ydZIvQtDCSGeWmI7Ct0NIjUrvqQDcLO3kpaQGWvzqbSM0nKIhOggE7aWRmKuy4q1K7K2nzQ==
+"@replikit/telegram@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/telegram/-/telegram-0.22.2.tgz#b302656b4e16b3e3858aec1748de27b7f500bc80"
+  integrity sha512-0WTT04CC8hljNbnP7+FDKfVFt1vHSXpPyRlbgBdogLjTOvuBzx49WQBP+N31SBStU/FM/7XbkoTsXdzhLTlfNA==
   dependencies:
-    "@replikit/core" "^0.22.1"
+    "@replikit/core" "^0.22.2"
     telegraf "^3.38.0"
 
-"@replikit/vk@^0.22.1":
-  version "0.22.1"
-  resolved "https://registry.npmjs.org/@replikit/vk/-/vk-0.22.1.tgz#1710697632b73298b4504af8c9700fb53f58423d"
-  integrity sha512-bpBZeAngdn3ZZigWe847UOxOr/x7TkQ6G7EyWLmA/pfh6h4aqNqGQK9ym0NHc+OTfRTnkubPhUeZnr4D8kTc6A==
+"@replikit/vk@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/vk/-/vk-0.22.2.tgz#6f6e9aaa14c6a49703b764165b3436d0ff784222"
+  integrity sha512-Hy6TvbS6RNSZSkeIqEL4PISOkimahePKo4RR0BEz3sVV+Lkt2615R0I+7g7rAQ5nOUgE6SDRm7r1a5zm0a4mfw==
   dependencies:
-    "@replikit/core" "^0.22.1"
+    "@replikit/core" "^0.22.2"
     vk-io "^4.0.1"
 
 "@ts-morph/common@~0.6.0":
