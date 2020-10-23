@@ -24,7 +24,7 @@ locales.add("ru", ReplicaLocale, {
 
 descriptions.add("ru", {
     routes: {
-        delete: "Удалаляет маршрут",
+        delete: "Удаляет маршрут",
         exclude: "Исключает канал из маршрута",
         include: "Добавляет канал в маршрут",
         info: "Отображает информацию о маршруте",
