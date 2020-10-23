@@ -1,0 +1,35 @@
+{
+    "name": "replica",
+    "version": "0.0.0",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "replikit dev",
+        "build": "replikit build",
+        "lint": "eslint \"modules/*/{src,tests,typings}/**/*.ts\" --max-warnings=0"
+    },
+    "workspaces": [
+        "modules/*",
+        "external/services",
+        "external/services/modules/*"
+    ],
+    "dependencies": {
+        "@replikit/commands": "^0.22.1",
+        "@replikit/core": "^0.22.1",
+        "@replikit/discord": "^0.22.1",
+        "@replikit/help": "^0.22.1",
+        "@replikit/i18n": "^0.22.1",
+        "@replikit/messages": "^0.22.1",
+        "@replikit/router": "^0.22.1",
+        "@replikit/storage": "^0.22.1",
+        "@replikit/telegram": "^0.22.1",
+        "@replikit/vk": "^0.22.1"
+    },
+    "devDependencies": {
+        "@replikit/cli": "^0.22.1",
+        "@types/node": "^14.14.0",
+        "@typescript-eslint/eslint-plugin": "^4.1.1",
+        "@typescript-eslint/parser": "^4.1.1",
+        "eslint": "^7.7.0"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "baseUrl": "modules",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "experimentalDecorators": true,
+        "paths": {
+            "@replica/*": ["*/src"],
+            "@replica/*/typings": ["*/typings"],
+            "@services/*": ["../external/services/modules/*/src"],
+            "@services/*/typings": ["../external/services/modules/*/typings"]
+        }
+    },
+    "include": ["replikit.config.ts", "modules/**/*.ts"]
+}

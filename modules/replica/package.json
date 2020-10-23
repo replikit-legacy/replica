@@ -1,0 +1,9 @@
+{
+    "name": "@replica/replica",
+    "version": "0.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "@replikit/attachments": "^0.21.0",
+        "p-queue": "^6.6.2"
+    }
+}

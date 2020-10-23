@@ -1,0 +1,3 @@
+[submodule "external/services"]
+	path = external/services
+	url = https://github.com/replikit/services
