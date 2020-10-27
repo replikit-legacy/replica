@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "license": "MIT",
     "dependencies": {
-        "@replikit/attachments": "^0.21.0",
+        "@replikit/attachments": "^0.22.2",
         "p-queue": "^6.6.2"
     }
 }

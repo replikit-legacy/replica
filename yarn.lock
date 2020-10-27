@@ -87,12 +87,12 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@replikit/attachments@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@replikit/attachments/-/attachments-0.21.0.tgz#2c53c639f005e8ce624c61d3b6d87de25997c767"
-  integrity sha512-yqZrdkfo0KDxsTC2MShoKOq4g7CLHzLJQ3ee/0LjYrBVSAK3lyhbB0XYqcqx06gKGVeC5BPwDNCGHK5xTtF6SQ==
+"@replikit/attachments@^0.22.2":
+  version "0.22.2"
+  resolved "https://registry.npmjs.org/@replikit/attachments/-/attachments-0.22.2.tgz#6c488d6d8ea9bf0135b2788d784a3e2e6b0fe86b"
+  integrity sha512-9N3TZYAxaLDdGGdZO47RqFBe0v+PMQFUlGlOwaRROkVSnJg4O8PPo1IQi5/krfwMdYIZUXfellkiI/N6hKZWxw==
   dependencies:
-    "@replikit/storage" "^0.21.0"
+    "@replikit/storage" "^0.22.2"
 
 "@replikit/authorization@^0.22.2":
   version "0.22.2"
@@ -135,15 +135,6 @@
     webpack-virtual-modules "^0.3.1"
     webpackbar "^4.0.0"
 
-"@replikit/commands@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@replikit/commands/-/commands-0.21.0.tgz#8c7c8448f5445f1e7d2c8f21a2b46927ecfa47e9"
-  integrity sha512-4wcNqdRiEyRdUxWRAhEvmEOuyu/tSki30KtFnULPWPTzGoBDDx2XyUx0zQQTQOCbdFrqqY6L/1Bc7rAOnGDiow==
-  dependencies:
-    "@replikit/core" "^0.21.0"
-    "@replikit/i18n" "^0.21.0"
-    "@replikit/router" "^0.21.0"
-
 "@replikit/commands@^0.22.2":
   version "0.22.2"
   resolved "https://registry.npmjs.org/@replikit/commands/-/commands-0.22.2.tgz#49330fed7450e7cdbcd30f5be31915ac1b1e1823"
@@ -152,11 +143,6 @@
     "@replikit/core" "^0.22.2"
     "@replikit/i18n" "^0.22.2"
     "@replikit/router" "^0.22.2"
-
-"@replikit/core@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@replikit/core/-/core-0.21.0.tgz#925793fd3d64e88c81d0d30ef8ef4b5f4165d5b4"
-  integrity sha512-5KB986dTRv8sZ6Ak14m4YClTSTpTQV0LDCOXASFllXB2/hf7OsjEFg5U4oq+PZganAFGuzZp6EwAD+kzU/xWrA==
 
 "@replikit/core@^0.22.2":
   version "0.22.2"
@@ -178,14 +164,6 @@
   dependencies:
     "@replikit/commands" "^0.22.2"
 
-"@replikit/i18n@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@replikit/i18n/-/i18n-0.21.0.tgz#9b023d86b5dcb8a8682f32976a3d5f532158f566"
-  integrity sha512-Swxsez39l5uYNlje5LvonkD1uQvenk2RMnk3UCP1xJk9Aa/tCAbDQnEEhcKiqoiDAoKz8FVDISI3SQPFHt22mA==
-  dependencies:
-    "@replikit/core" "^0.21.0"
-    "@replikit/router" "^0.21.0"
-
 "@replikit/i18n@^0.22.2":
   version "0.22.2"
   resolved "https://registry.npmjs.org/@replikit/i18n/-/i18n-0.22.2.tgz#c0b1bc3cb0ab5da9fce740a9124a719394bb760d"
@@ -193,13 +171,6 @@
   dependencies:
     "@replikit/core" "^0.22.2"
     "@replikit/router" "^0.22.2"
-
-"@replikit/messages@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@replikit/messages/-/messages-0.21.0.tgz#c3fb8f58fc6d77b7e8fa4877d293e522919f7879"
-  integrity sha512-j5fnZCgUnnIR3w5kNFrf0D4lTqz8Lcs28Ji/qpCDR8T8Q/hFwtuaCn1CbR5aR5yQfnhQPpMWyoXOWQxeWWOZaA==
-  dependencies:
-    "@replikit/core" "^0.21.0"
 
 "@replikit/messages@^0.22.2":
   version "0.22.2"
@@ -219,14 +190,6 @@
   optionalDependencies:
     "@replikit/commands" "^0.22.2"
 
-"@replikit/router@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@replikit/router/-/router-0.21.0.tgz#b97687d8a4bffa040413f7d1a913cdfe82448f6a"
-  integrity sha512-kyVMTkI6rW5HmnPktHkGBojDSA3FiCyS//m7r5B/lD/7vOW/H5y+LYVeSDXO8DAgdq2leX8MuojxaJEc4gPzTA==
-  dependencies:
-    "@replikit/core" "^0.21.0"
-    "@replikit/messages" "^0.21.0"
-
 "@replikit/router@^0.22.2":
   version "0.22.2"
   resolved "https://registry.npmjs.org/@replikit/router/-/router-0.22.2.tgz#108f72105bee9ff30749a01bcd786d81943aefaa"
@@ -234,21 +197,6 @@
   dependencies:
     "@replikit/core" "^0.22.2"
     "@replikit/messages" "^0.22.2"
-
-"@replikit/storage@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.npmjs.org/@replikit/storage/-/storage-0.21.0.tgz#2ef50230977862e2e13b5babe92cca0261af92c8"
-  integrity sha512-h2rGhu4oXqAyM08r94m1pFCWPlRyv66qhuJ6yu7YkYSpTW+2trer7GGv1ylwrQy+ykxmy9k5y13l0djiov/GGg==
-  dependencies:
-    "@abraham/reflection" "^0.7.0"
-    "@replikit/core" "^0.21.0"
-    "@replikit/i18n" "^0.21.0"
-    "@replikit/router" "^0.21.0"
-    "@types/mongodb" "^3.5.26"
-    class-transformer "^0.3.1"
-    mongodb "^3.6.0"
-  optionalDependencies:
-    "@replikit/commands" "^0.21.0"
 
 "@replikit/storage@^0.22.2":
   version "0.22.2"
