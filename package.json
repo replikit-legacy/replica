@@ -31,5 +31,9 @@
         "@typescript-eslint/eslint-plugin": "^4.1.1",
         "@typescript-eslint/parser": "^4.1.1",
         "eslint": "^7.7.0"
+    },
+    "resolutions": {
+        "vk-io": "4.0.3",
+        "middleware-io": "2.5.0"
     }
 }
