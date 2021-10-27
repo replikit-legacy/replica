@@ -94,29 +94,29 @@
   dependencies:
     "@replikit/storage" "^0.22.2"
 
-"@replikit/authorization@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/authorization/-/authorization-0.23.2.tgz#ffa27e17bd92291df137fa7bb6dd868b5bbabb3f"
-  integrity sha512-n2pvjNytyEbtJrCJitNagqr76jLibS1CrETwXAd2cl5S4l/s4gMMNmRJFoTiw0MPqMJwfbSii7KpAY60MMlauA==
+"@replikit/authorization@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/authorization/-/authorization-0.23.3.tgz#9d804624d21e903a804c40a1fcbde520aed50f1e"
+  integrity sha512-cZ5m/xJIuivFZUBH1hCihYTkxQOKa2IjZRQuRip1mieTPac3wRj3XDkcQoKBisuOAb/8EU9GzlphyRgEELiyZA==
   dependencies:
-    "@replikit/commands" "^0.23.2"
-    "@replikit/permissions" "^0.23.2"
+    "@replikit/commands" "^0.23.3"
+    "@replikit/permissions" "^0.23.3"
 
-"@replikit/chalk@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/chalk/-/chalk-0.23.2.tgz#36343ac98a623551b8a92a9af3e7745ddc3501a8"
-  integrity sha512-KdA8eHMf2ptedE5eUnNuYgJnUJ8Wo7Zl7ypN8dOIekVv0LL7YewDd/P4QV4UNBukInw71VmEXVwRB8iXRP/hNg==
+"@replikit/chalk@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/chalk/-/chalk-0.23.3.tgz#ed6ecb62bd0aa995d8a836f056ab3a4bd3f0a56c"
+  integrity sha512-xzwe7tr/Y8wMNO4XFK8hYjSK5b3EfTFTl4jWNANwyWIgz/5NDuvs39sAKIQzq16mHTKYD6zCynskRCwd5FzEtg==
   dependencies:
-    "@replikit/core" "^0.23.2"
+    "@replikit/core" "^0.23.3"
     chalk "^4.0.0"
 
-"@replikit/cli@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/cli/-/cli-0.23.2.tgz#c2e987cd56d9e0a78daa6067ee68220a5e346a0a"
-  integrity sha512-YGscHHGzuQr3NW+ckFGMniFE5BchDBuRoM/n3suuLhJy9dKsyrhmTs3SszNnRKYdWj8eN6XXq+wD0CuEpYGFWQ==
+"@replikit/cli@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/cli/-/cli-0.23.3.tgz#75fcca59ec96ebb9ca9b3b40625c02edfa8e42ce"
+  integrity sha512-x3j17TkBRg8HOJQ+YXbienPoV1QUpyO0LE8/gUVpdsN2XqJ2O+/HsZVyMesOES4u10hGDxA0Wn6OMqawYCVg5w==
   dependencies:
-    "@replikit/chalk" "^0.23.2"
-    "@replikit/core" "^0.23.2"
+    "@replikit/chalk" "^0.23.3"
+    "@replikit/core" "^0.23.3"
     commander "^6.0.0"
     dotenv "^8.2.0"
     execa "^4.0.0"
@@ -144,39 +144,39 @@
     "@replikit/i18n" "^0.22.2"
     "@replikit/router" "^0.22.2"
 
-"@replikit/commands@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/commands/-/commands-0.23.2.tgz#470b3da18ddde544ce7c2c13c1352fa68cc0799d"
-  integrity sha512-yjhWFZUifb3vGB7LtEMjK03RzzKAsySkt+Tf2k/5fxkmoKDh9K3+macq+0O5GmFRABAMU9p+gRzH6uZKay+Adg==
+"@replikit/commands@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/commands/-/commands-0.23.3.tgz#341d9324d65cc3ecc081f83c0f0a27ea52fcd47d"
+  integrity sha512-QFFnQKaTFNj2JBiDCr/FSRXb8pmxDjY4vY1bPlecQkQybqPqrG/4nKdjm0b/juj6Zp+Ty+KxMECK3F+xVK2rWQ==
   dependencies:
-    "@replikit/core" "^0.23.2"
-    "@replikit/i18n" "^0.23.2"
-    "@replikit/router" "^0.23.2"
+    "@replikit/core" "^0.23.3"
+    "@replikit/i18n" "^0.23.3"
+    "@replikit/router" "^0.23.3"
 
 "@replikit/core@^0.22.2":
   version "0.22.2"
   resolved "https://registry.npmjs.org/@replikit/core/-/core-0.22.2.tgz#2f0b57e25e3680ea0f27713ba04489de8b42ae91"
   integrity sha512-X/6pxYNvMKQPl7ShJej2JkZhxOFNS+ti75pdvb3r2UrwmxSEPej48owfRVHxhbnM6vRz1r3qRtLfXASUd3Zljg==
 
-"@replikit/core@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/core/-/core-0.23.2.tgz#4d16007cf8653f6d13bd269db00022340566a4b8"
-  integrity sha512-bNBuZwpcNAU9IL978UYe8x/6irm/DDW4xObP1ABBcuHLpYi1FRVbT47kosmuVOiwOIudwWy24HV2DoBFzHn6OA==
+"@replikit/core@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/core/-/core-0.23.3.tgz#c2db336c214d5aeeba603ee74b69b64f9a1ee7e1"
+  integrity sha512-KQDDJjevb43hSRH3XFRObKR2z4cYt35cwIXFqQxW1mkKCG/61BrgQHvuDjORAVXTRW8ivy8pAINO52zU3tDt8Q==
 
-"@replikit/discord@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/discord/-/discord-0.23.2.tgz#6e48ad6948da79daf58b1ded02033f0b12f4935b"
-  integrity sha512-CNqb1SS4xyx5ynYlssC6W0eZmok1NhTzmksFyM4x5/r3l486EOVQBN1zNhn/P3CInO6FcxDIovRD8v3S2SCCsA==
+"@replikit/discord@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/discord/-/discord-0.23.3.tgz#676a9ea601acbe3bbe7eadcd05864a136d1238b3"
+  integrity sha512-+WQCz+/7srKrpC8aHDiSb5kXBeUEz0v6Fypk1v3sjSAhu9wckaqfR9jwAQ0f+RQk87Y3Mm2yn17AuszVCyDWNg==
   dependencies:
-    "@replikit/core" "^0.23.2"
+    "@replikit/core" "^0.23.3"
     discord.js "^12.4.1"
 
-"@replikit/help@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/help/-/help-0.23.2.tgz#a27404b0f51e27634b0e101e654a3820a3e28172"
-  integrity sha512-0f+561vMTvoGaqQvwuFTvq8cnTQohqy3oYI7M9gUIIMOPltqByQNAaqDI97qFtD0YgSBbDLZlEr4lnCCn8S9lg==
+"@replikit/help@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/help/-/help-0.23.3.tgz#2984b9e449d33c881d5eb9c66167e4e2e5184729"
+  integrity sha512-G1yiwR2HTh8dTgxsCl5q46roWIDB7+gvx8pzZxskyFUit4+caiRltZZ8ci3tMQZNSfJUdIxHqXr1ZJkVpIa6rw==
   dependencies:
-    "@replikit/commands" "^0.23.2"
+    "@replikit/commands" "^0.23.3"
 
 "@replikit/i18n@^0.22.2":
   version "0.22.2"
@@ -186,13 +186,13 @@
     "@replikit/core" "^0.22.2"
     "@replikit/router" "^0.22.2"
 
-"@replikit/i18n@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/i18n/-/i18n-0.23.2.tgz#b80ac8e88f4015478ae51bee025d2ca7939313a1"
-  integrity sha512-8qfG30TSdqZhQPHqChWz8O5PZtV5FxqYpBbP5UxPQ4GyuL3yPOqfHhXtnhqqQFESbFpMGCP+Vn3FfKutzdeW/g==
+"@replikit/i18n@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/i18n/-/i18n-0.23.3.tgz#6b13f3b312bffb1e7ff8d03794a3ac4c30394342"
+  integrity sha512-cv13duONrV/nCKP0qKmjsjZdh72O71XrNuxzDyF5KIJAjnw9SG+tbaJSYvx4th619xnnATN4Lq9/Q9JvHJn1JA==
   dependencies:
-    "@replikit/core" "^0.23.2"
-    "@replikit/router" "^0.23.2"
+    "@replikit/core" "^0.23.3"
+    "@replikit/router" "^0.23.3"
 
 "@replikit/messages@^0.22.2":
   version "0.22.2"
@@ -201,23 +201,23 @@
   dependencies:
     "@replikit/core" "^0.22.2"
 
-"@replikit/messages@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/messages/-/messages-0.23.2.tgz#aa4f7d9529599a40755e728e1edd4acd8a7c7d43"
-  integrity sha512-0Ypcrk+C65TGQJWpkhN3cXRn1lwo0z00sT6fVDkZZ69NF81abcAc6Kukvt9DxKBS4lEDUAfnWXWfewlo6BbXJw==
+"@replikit/messages@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/messages/-/messages-0.23.3.tgz#3d5e2fd1d8df659b01c99d253e6db17b2118837e"
+  integrity sha512-YXuySHuM/FFCF7JGc64EIEowp9B9xrPoeMr90LB2+rRP1vQKP0gdXnfxobNSdUwUJdd5KNTylhEc1MKFTLtzCg==
   dependencies:
-    "@replikit/core" "^0.23.2"
+    "@replikit/core" "^0.23.3"
 
-"@replikit/permissions@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/permissions/-/permissions-0.23.2.tgz#0ca16601a3e6b32672f2cc5937ea01e58004a4b0"
-  integrity sha512-LR3vFACR/geG0zDfNS7ctJ0AchXSr0UZMp4zVe7BxUqEtkm2SF+9kt8z/fax/TwzNSDn+hwPbGxH79pGUm2qXA==
+"@replikit/permissions@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/permissions/-/permissions-0.23.3.tgz#dc3f24120f8ead5a78fb807edf42616e43ba21bb"
+  integrity sha512-eOtmNSS6n0E8iQCpYtJ54YHifsEJrvT0SftI8jKpt4JeLy/rt66h8o8ZVC8xWKu7L0Rps2mT7uL0M7uv9D3kCQ==
   dependencies:
-    "@replikit/core" "^0.23.2"
-    "@replikit/i18n" "^0.23.2"
-    "@replikit/storage" "^0.23.2"
+    "@replikit/core" "^0.23.3"
+    "@replikit/i18n" "^0.23.3"
+    "@replikit/storage" "^0.23.3"
   optionalDependencies:
-    "@replikit/commands" "^0.23.2"
+    "@replikit/commands" "^0.23.3"
 
 "@replikit/router@^0.22.2":
   version "0.22.2"
@@ -227,13 +227,13 @@
     "@replikit/core" "^0.22.2"
     "@replikit/messages" "^0.22.2"
 
-"@replikit/router@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/router/-/router-0.23.2.tgz#18ce2622987ad1186899cf40057966a27d8838be"
-  integrity sha512-hcHNixytZf7pHIEij1tu4L03WHnAlgplsQ9AWoSmENxDMzyX/AJmIujUih01cKKx7Zx+IM6OO3NEuYQF/BepMw==
+"@replikit/router@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/router/-/router-0.23.3.tgz#4aa52e34851e78dc05c9346c990b4974d3bb5099"
+  integrity sha512-R/9qRWwQVrsJwO7Ed8I31EnyudiCUzI9R+eVgvYwfFLZMBvxueOfIbqIkFeJsmOzkR64IpGoFI8CH42kqGgG1A==
   dependencies:
-    "@replikit/core" "^0.23.2"
-    "@replikit/messages" "^0.23.2"
+    "@replikit/core" "^0.23.3"
+    "@replikit/messages" "^0.23.3"
 
 "@replikit/storage@^0.22.2":
   version "0.22.2"
@@ -250,35 +250,35 @@
   optionalDependencies:
     "@replikit/commands" "^0.22.2"
 
-"@replikit/storage@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/storage/-/storage-0.23.2.tgz#d0d3155b7d2cfa2d29e70c181e0e8dd0f941ceab"
-  integrity sha512-u2wlylIHbOr1uQdu6yD4weIiVapEev6rKwlubpMgpumfdl5Eg7VmBW6kR02ABjMk3h4zMuEvdcHEWn0NmxNjSA==
+"@replikit/storage@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/storage/-/storage-0.23.3.tgz#ace28acee673a71a1df12fa42b450fb98560d68f"
+  integrity sha512-bwxO/z6FjHGPU4zrz+/REq+zmSNW3ixyjWNKHkkUWeixbFKvymkuh6jcJlLJW3ljQPhf8JtxGcNIIeCnppS72w==
   dependencies:
     "@abraham/reflection" "^0.7.0"
-    "@replikit/core" "^0.23.2"
-    "@replikit/i18n" "^0.23.2"
-    "@replikit/router" "^0.23.2"
+    "@replikit/core" "^0.23.3"
+    "@replikit/i18n" "^0.23.3"
+    "@replikit/router" "^0.23.3"
     "@types/mongodb" "^3.5.33"
     class-transformer "^0.3.1"
     mongodb "^3.6.3"
   optionalDependencies:
-    "@replikit/commands" "^0.23.2"
+    "@replikit/commands" "^0.23.3"
 
-"@replikit/telegram@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/telegram/-/telegram-0.23.2.tgz#4408962f447a8348a189cc1dc6c7d1e1e249c1be"
-  integrity sha512-COF/7M+01GZ//vH7g0C3Z0p4QqfmGUsae7rDamv7qPmebOR2TuRU8fGxc1rtsYTi1IqUll7VJn9YWnIDCaCb4Q==
+"@replikit/telegram@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/telegram/-/telegram-0.23.3.tgz#e328667d95f5ad3eeb7e7993b8384aae754a4247"
+  integrity sha512-sYS2HICJ8o+mvHo71PntkQr8Infl1FZQN6cyzxedIwoR1iz8QlSfCohCHf9u1Vm8wJ4g5zm/WlQeFdEtYJrl5w==
   dependencies:
-    "@replikit/core" "^0.23.2"
+    "@replikit/core" "^0.23.3"
     telegraf "^3.38.0"
 
-"@replikit/vk@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@replikit/vk/-/vk-0.23.2.tgz#5e3ce52e96f75935fa62d1ee485f0e34f7bd75f9"
-  integrity sha512-Grcq73f/NzXS3fRZaEXUZBu+rEtt+OHqe8kNYGvRe0mz2NQvJ9SCt1Tg3Ao7kCMux6FJLvxE4LmKXvYw4al32Q==
+"@replikit/vk@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@replikit/vk/-/vk-0.23.3.tgz#85b82644996d2b760dbae4802f050d5b015aaf59"
+  integrity sha512-NZ4utrwCElNMQQnWM1Vm+7Q6zKaB0JNbTodWkF90q+ZytsKa0hQ670dBDz1EQIeLBnzCvA/Wvr40uL3G4cG2rQ==
   dependencies:
-    "@replikit/core" "^0.23.2"
+    "@replikit/core" "^0.23.3"
     vk-io "^4.0.4"
 
 "@ts-morph/common@~0.6.0":
