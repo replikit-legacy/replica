@@ -5,7 +5,7 @@
     "private": true,
     "scripts": {
         "dev": "replikit dev",
-        "build": "replikit build",
+        "build": "NODE_OPTIONS=--openssl-legacy-provider replikit build",
         "lint": "eslint \"modules/*/{src,tests,typings}/**/*.ts\" --max-warnings=0"
     },
     "workspaces": [
