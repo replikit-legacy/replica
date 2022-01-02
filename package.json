@@ -14,19 +14,19 @@
         "external/services/modules/*"
     ],
     "dependencies": {
-        "@replikit/commands": "^0.23.3",
-        "@replikit/core": "^0.23.3",
-        "@replikit/discord": "^0.23.3",
-        "@replikit/help": "^0.23.3",
-        "@replikit/i18n": "^0.23.3",
-        "@replikit/messages": "^0.23.3",
-        "@replikit/router": "^0.23.3",
-        "@replikit/storage": "^0.23.3",
-        "@replikit/telegram": "^0.23.3",
-        "@replikit/vk": "^0.23.3"
+        "@replikit/commands": "^0.23.4",
+        "@replikit/core": "^0.23.4",
+        "@replikit/discord": "^0.23.4",
+        "@replikit/help": "^0.23.4",
+        "@replikit/i18n": "^0.23.4",
+        "@replikit/messages": "^0.23.4",
+        "@replikit/router": "^0.23.4",
+        "@replikit/storage": "^0.23.4",
+        "@replikit/telegram": "^0.23.4",
+        "@replikit/vk": "^0.23.4"
     },
     "devDependencies": {
-        "@replikit/cli": "^0.23.3",
+        "@replikit/cli": "^0.23.4",
         "@types/node": "^14.14.0",
         "@typescript-eslint/eslint-plugin": "^4.1.1",
         "@typescript-eslint/parser": "^4.1.1",
